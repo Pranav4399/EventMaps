@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import './styles/app/App.css';
+import WorldMap from './pages/components/map';
+import Header from './pages/components/header';
+import Footer from './pages/components/footer';
+import NavBar from './pages/components/navbar';
+//import { useEffect } from 'react';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <NavBar />
+      <WorldMap />
+      <Footer />
     </div>
   );
 }
