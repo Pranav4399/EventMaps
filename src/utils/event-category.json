@@ -1,0 +1,54 @@
+[
+    {
+        "name" : "Music",
+        "emoji" :"🎵"
+    },
+    {
+        "name" : "Visual Arts", 
+        "emoji" : "🎨"
+    },
+    {
+        "name" : "Performing Arts", 
+        "emoji" : "🎭"
+    },
+    {
+        "name" : "Film",
+        "emoji" : "📽️"
+    },
+    {
+        "name" : "Lectures & Books",
+        "emoji" : "📚"
+    },
+    {
+        "name" : "Fashion",
+        "emoji" : "👓"
+    },
+    {
+        "name" : "Food & Drink",
+        "emoji" : "🍏"
+    },
+    {
+        "name" : "Festivals & Fairs",
+        "emoji" : "🪔"
+    },
+    {
+        "name" : "Charities", 
+        "emoji" : "🎁"
+    },
+    {
+        "name" : "Sports & Active Life", 
+        "emoji" : "⚽"
+    },
+    {
+        "name" : "Nightlife", 
+        "emoji" : "🍸"
+    },
+    {
+        "name" : "Kids & Family", 
+        "emoji" : "👪"
+    },
+    {
+        "name" : "Other",
+        "emoji" : "❓"
+    }
+]

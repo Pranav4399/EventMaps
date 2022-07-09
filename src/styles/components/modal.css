@@ -1,1 +1,5 @@
 @import url('~bootstrap/dist/css/bootstrap.min.css');
+
+.modal-title {
+    font-size: 14px;
+}

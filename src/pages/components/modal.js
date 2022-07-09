@@ -7,16 +7,25 @@ const LocationModal = (props) => {
     return (
       <>
         <Modal show={show} onHide={() => setShow(false)}>
-          <Modal.Header closeButton>
-            <Modal.Title><p className="modal-title font-bold">Welcome to EventMaps. We would like to know the city you're in to center the map accrodingly. 
-              If you don't wish to agree, Please close the popup and proceed. If you agree, this city will also be stored in your browser's local storage for future instances</p>
+          <Modal.Header>
+            <Modal.Title>
+              <h4>Disclaimer For Location access</h4>
             </Modal.Title>
           </Modal.Header>
+          <Modal.Body>
+              <span className="modal-title font-bold">
+                Welcome to EventMaps. We would like to request your location to center the map accrodingly 
+                to your city. In the event that you don't wish to allow access, 
+                Please close the popup and continue. Assuming that you concur, 
+                this location will be stored in your browser's localStorage and the map will be
+                centered based on that from next time.
+              </span>
+          </Modal.Body>
           <Modal.Footer>
-            <Button variant="secondary" onClick={() => {setChoice(true); setShow(false); localStorage.setItem('userChoice', true);}}>
+            <Button className='btn btn-success' variant="secondary" onClick={() => {setChoice(true); setShow(false); localStorage.setItem('userChoice', true);}}>
               Agree
             </Button>
-            <Button variant="secondary" onClick={() => {setChoice(false); setShow(false);}}>
+            <Button className='btn btn-danger' variant="secondary" onClick={() => {setChoice(false); setShow(false);}}>
               Disagree
             </Button>
           </Modal.Footer>

@@ -1,0 +1,22 @@
+{
+  "name": "meetmaps-react-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dbconnect.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.1",
+    "react-redux": "^8.0.2",
+    "redux": "^4.2.0"
+  }
+}
