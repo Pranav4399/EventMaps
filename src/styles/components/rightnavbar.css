@@ -1,0 +1,89 @@
+.right-navbar-container {
+    height: 95vh; /* 100% Full-height */
+    position: absolute; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    background-color: #f0f0f0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    /* overflow-y: hidden; */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    z-index: 1;
+    width: 350px;
+    text-align: center;
+}
+
+.right-navbar-container-expanded {
+    right: 0;
+}
+
+.right-navbar-container-collapsed {
+    right: -350px; /* 0 width - change this with JavaScript */
+}
+
+.right--menu--button {
+    height: 10vh;
+    border-bottom: 2px solid;
+}
+
+.right--menu--button .openbtn {
+    font-size: 30px;
+    cursor: pointer;
+    color: #222;
+    border: none;
+    height: 100%;
+    width: 50px;
+}
+
+.right--menu--button .openbtn:hover {
+    background-color: wheat;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+.row {
+    align-items: center;
+}
+
+.btn-span button {
+    margin: 0px 5px;
+}
+  
+  /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.name--column, .date--column {
+    word-break: break-all;
+}
+
+.uparrow, .downarrow {
+    font-size: 16px;
+    display: block;
+    margin: 5px auto;
+}
+
+.userDetails--item {
+    align-items: center;
+    border: 1px solid;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .right-navbar-container {
+        width: 50vw;
+    }
+    
+    .right-navbar-container-expanded {
+        right: 0;
+    }
+    
+    .right-navbar-container-collapsed {
+        right: -50vw; /* 0 width - change this with JavaScript */
+    }
+  }

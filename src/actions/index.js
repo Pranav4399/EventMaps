@@ -4,6 +4,12 @@ export const IsLogged = () => {
     }
 }
 
+export const IsNodeRunning = () => {
+    return {
+        type: 'NODE_RUNNING'
+    }
+}
+
 export const ShowLoctionMarkerDetail = () => {
     return {
         type: 'SHOW_LOCATION_DETAIL'
@@ -40,5 +46,17 @@ export const SetMap = (map) => {
     return {
         type: 'SET_MAP',
         map: map || null
+    }
+}
+
+export const IsNavBarOpenClose = () => {
+    return {
+        type: 'NAVBAR_EXPAND_COLLAPSE'
+    }
+}
+
+export const IsRightNavbarOpenClose = () => {
+    return {
+        type: 'RIGHT_NAVBAR_EXPAND_COLLAPSE'
     }
 }

@@ -1,0 +1,31 @@
+.event--name, .event--description, .event--lat, .event--lng, .event--date, .event--time {
+    border: 1px solid #456745;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #f2f2f2;
+    padding: 8px;
+    border-radius: 3px;
+    width: 250px;
+    font-size: 14px;
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.event--lat, .event--lng{
+    border: 1px solid #456745;
+    background: #dddddd;
+    color: #464242;
+    cursor: not-allowed;
+}
+
+.event--category {
+    border: 1px solid #456745;
+    background-color: #f2f2f2;
+	border-radius: 4px;
+    width: 250px;
+    height: 30px;
+    margin: 0 0 10px 0;
+    text-align: center;
+}

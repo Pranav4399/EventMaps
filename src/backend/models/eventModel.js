@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const eventSchema = mongoose.Schema({
+const EventSchema = mongoose.Schema({
     eventName: {
         type: String,
     },
@@ -12,10 +12,13 @@ const eventSchema = mongoose.Schema({
         type: String,
         required: true
     },
-    email: {
+    eventDate:{
         type: String,
-        unique: true,
-        required: true,
+        required: true
+    },
+    eventTime:{
+        type: String,
+        required: true
     },
     eventLat: {
         type: Number,
@@ -24,11 +27,17 @@ const eventSchema = mongoose.Schema({
     eventLng: {
         type: Number,
         required: true
+    },
+    eventAddedByEmail:{
+        type: String,
+        required: true
+    },
+    eventAddedByName:{
+        type: String,
+        required: true
     }
 }, {
     timestamps: true
 });
 
-const Event = mongoose.model('Events', eventSchema)
-
-export default Event
+export default mongoose.model('Events', EventSchema);

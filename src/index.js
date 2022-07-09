@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import {createStore} from 'redux';
 import allReducer from './reducers';
 import {Provider} from 'react-redux';
+import { Auth0Provider } from '@auth0/auth0-react';
 
 const store = createStore(allReducer,window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
@@ -13,7 +14,13 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Provider store={store}>
     <React.StrictMode>
-      <App />
+    <Auth0Provider 
+      domain = "dev-jlrampwe.us.auth0.com"
+      clientId = "jfcN8D2FmcZlyFFQEhl63hDoLsIVzttV"
+      redirectUri = {window.location.origin}
+      >
+        <App />
+      </Auth0Provider>
     </React.StrictMode>
   </Provider>
 );

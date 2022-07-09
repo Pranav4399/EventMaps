@@ -1,3 +1,47 @@
 .navbar-container {
-    height: 90vh;
+  height: 85vh; /* 100% Full-height */
+  position: absolute; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  background-color: #f0f0f0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  z-index: 1;
+  width: 350px;
+  text-align: center;
+  top: 10vh;
+}
+
+.navbar-container-expanded {
+    left: 0;
+}
+
+.navbar-container-collapsed {
+    left: -350px; /* 0 width - change this with JavaScript */
+}
+
+.user--desc {
+    margin: 10px 50px 10px 50px;
+}
+
+.view--events {
+    margin: 10px 50px;
+}
+
+.logo--name {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    float: right;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #222;
+}
+
+.user-profile-img {
+    border-radius: 50%; 
+    width: 75px;
+    height: 75px;
+    margin: auto;
 }
