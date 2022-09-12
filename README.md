@@ -11,7 +11,7 @@ in few days.
 ## 🚀 About Me
 I'm a Frontend developer based out of india and have a 
 special liking for maps and the geospatial domain which
-ultimately led me to work on this project. Hope this works
+ultimately led me to work on this project. Hope this work
 serves you well in finding any events happening near you
 on a mundane saturday evening. Cheers.
 
@@ -19,14 +19,13 @@ on a mundane saturday evening. Cheers.
 ## Contributing
 
 Contributions are always welcome for this project although you'd have to wait
-a bit more time for this to be made Opensource along with MIT License. Please stay tuned!
+a bit more time for this to be made Opensource. Please stay tuned!
 
 
 
 ## Documentation
 
-Currently on the Process of creating a raw Documentation although
-this project is very self explanatory.
+Currently on the Process of creating a raw Documentation.
 
 
 ## Roadmap
@@ -37,7 +36,6 @@ in upcoming versions of this project.
 - API integrations with giants of this domain like meetup.com
 - To add checks to prevent adding events in inaccessabile locations like seas
 - Prevent spam bots from adding locations using scripts
-- Remove events that are completed from DB automatically.
  ...
 
 This list will be updated further with time.
