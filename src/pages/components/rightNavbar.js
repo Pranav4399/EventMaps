@@ -46,7 +46,7 @@ const RightNavbar = () => {
             console.log(userDetails);
         })
         .catch((error) => {
-              alert(error);
+              //alert(error);
         });
       }
     },[isAuthenticated])

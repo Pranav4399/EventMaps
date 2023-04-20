@@ -71,7 +71,7 @@ const WorldMap = () => {
         setDisplayedMarkers(response.data)
       })
       .catch((error) => {
-          alert(error);
+         // alert(error);
       });
     },[])
     
